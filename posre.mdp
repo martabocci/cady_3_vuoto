@@ -31,11 +31,11 @@ emstep                   = 0.01
 
 
 ;;;;;;;;;;;; OUTPUT CONTROL OPTIONS
-nstxout                  = 100
-nstvout                  = 100
-nstlog                   = 1000
-nstcalcenergy            = 100
-nstenergy                = 1000
+nstxout                  = 5
+nstvout                  = 5
+nstlog                   = 5
+nstcalcenergy            = 5
+nstenergy                = 5
 energygrps               = 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;, Temperature coupling  
@@ -47,6 +47,9 @@ Pcoupl                   = berendsen
 Pcoupltype               = isotropic
 tau_p                    = 1.0
 compressibility          = 4.5e-5
+nstpcouple               =-1
+ref_p                    = 1.0
+refcoord_scaling         = com
 
 ; SIMULATED ANNEALING  
 ; Type of annealing for each temperature group (no/single/periodic)
@@ -59,6 +62,6 @@ annealing-time           =                 ; es. 50 100 150 50 100 150
 annealing-temp           =                 ; es. 300 400 500 300 400 500
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
-gen-vel                  = no
+gen-vel                  = yes
 gen-temp                 = 300
 gen-seed                 = -1
