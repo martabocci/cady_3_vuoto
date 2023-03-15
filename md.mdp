@@ -22,7 +22,7 @@ constraints              = all-bonds
 
 integrator               =  md          
 dt                       = 0.002
-nsteps                   = 25000          
+nsteps                   = 1000000       
 
 ;;;;;;;;;; minimization
 
