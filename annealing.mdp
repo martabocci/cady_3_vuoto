@@ -46,7 +46,7 @@ constraint-algorithm     = Lincs
 ; Annealing options below (EDIT THESE!):
 annealing = single  
 annealing-npoints = 10
-annealing-time = 0 50 70 150 151 300 330 400 405 600 0 50 70 150 151 300 330 400 405 600
-annealing-temp = 300 300 500 500 1100 1100 10 10 300 300 300 300 500 500 1100 1100 10 10 300 300 
+annealing-time = 0 50 70 150 151 300 330 400 405 600 
+annealing-temp = 300 300 500 500 1100 1100 10 10 300 300 
 
 
